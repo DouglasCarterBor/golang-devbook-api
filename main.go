@@ -13,6 +13,6 @@ func main() {
 
 	r := router.ToGenerate()
 
-	log.Fatal(http.ListenAndServe(":5000", r))
+	log.Fatal(http.ListenAndServe("0.0.0.0:5000", r))
 
 }

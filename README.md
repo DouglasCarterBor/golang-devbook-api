@@ -40,3 +40,12 @@ code src/controllers/usuarios.go
   Play the routes into the router
 
 </details>
+
+<details>
+  <summary><strong>📌 Lesson 72: Testing routes in postman</strong></summary>
+
+  ### 1️⃣ Comands:
+```sh
+mkdir postman
+```
+</details>
