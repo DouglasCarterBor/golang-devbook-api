@@ -8,7 +8,7 @@ This repository contains the step-by-step implementation of a **Golang API** usi
 ## 🔹 Lessons
 
 <details>
-  <summary><strong>📌 Lesson 69 - Packages, Main, and Routes</strong></summary>
+  <summary><strong>📌 Lesson 69 - Packages, Main and Routes</strong></summary>
 
 ### 1️⃣ Comands:
 ```sh
@@ -23,7 +23,7 @@ mkdir router && cd router && touch router.go && code router.go
 </details>
 
 <details>
-  <summary><strong>📌 Lesson 70 - Packages, Routes, and Controllers</strong></summary>
+  <summary><strong>📌 Lesson 70 - Packages, Routes and Controllers</strong></summary>
 
 ### 1️⃣ Comands:
 ```sh
