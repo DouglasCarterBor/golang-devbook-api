@@ -49,3 +49,28 @@ code src/controllers/usuarios.go
 mkdir postman
 ```
 </details>
+
+<details>
+  <summary><strong>📌 Lesson 73: Model user and init database</strong></summary>
+
+  ### 1️⃣ Comands:
+```sh
+mkdir -p src/models && touch src/models/user.go && code src/models/user.go
+mkdir -p src/sql && touch src/sql/sql.sql && code src/sql/sql.sql
+mysql -u golang -p
+CREATE DATABASE IF NOT EXISTS devbook;
+USE devbook;
+
+DROP TABLE IF EXISTS users;
+
+CREATE TABLE users (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(50) NOT NULL,
+    nick VARCHAR(50) NOT NULL UNIQUE,
+    email VARCHAR(50) NOT NULL UNIQUE,
+    password VARCHAR(50) NOT NULL UNIQUE,
+    created_in TIMESTAMP DEFAULT CURRENT_TIMESTAMP()
+) ENGINE=INNODB;
+desc users;
+```
+</details>
