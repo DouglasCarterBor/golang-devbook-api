@@ -22,3 +22,19 @@ mkdir router && cd router && touch router.go && code router.go
 ```
 </details>
 
+<details>
+  <summary><strong>📌 Lesson 70 - Packages, Routes, and Controllers</strong></summary>
+
+### 1️⃣ Comands:
+```sh
+mkdir -p src/router/routes && touch src/router/routes/routes.go
+code src/router/routes/routes.go
+touch src/router/routes/user.go
+code src/router/routes/user.go
+mkdir -p src/controllers
+touch src/controllers/usuarios.go
+code src/controllers/usuarios.go
+
+```
+</details>
+
