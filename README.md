@@ -112,3 +112,12 @@ mkdir -p src/repositories && touch src/repositories/users.go && code src/reposit
   <summary><strong>📌 Lesson 77: Create users</strong></summary>
 </details>
 
+
+<details>
+  <summary><strong>📌 Lesson 78: Testing method create users in Postman</strong></summary>
+
+```sh
+go run main.go
+```
+</details>
+
