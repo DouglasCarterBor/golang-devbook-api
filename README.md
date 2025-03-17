@@ -74,3 +74,18 @@ CREATE TABLE users (
 desc users;
 ```
 </details>
+
+<details>
+  <summary><strong>📌 Lesson 74: Package config</strong></summary>
+
+  ### 1️⃣ Comands:
+```sh
+mkdir -p src/config && touch src/config/config.go && code src/config/config.go
+touch .env && code .env
+go get github.com/joho/godotenv
+touch .env && code .env
+touch .gitignore && code .gitignore
+touch .env.example && code .env.example
+```
+</details>
+
