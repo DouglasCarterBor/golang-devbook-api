@@ -108,3 +108,7 @@ mkdir -p src/repositories && touch src/repositories/users.go && code src/reposit
 ```
 </details>
 
+<details>
+  <summary><strong>📌 Lesson 77: Create users</strong></summary>
+</details>
+
