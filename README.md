@@ -99,3 +99,12 @@ go get github.com/go-sql-driver/mysql
 ```
 </details>
 
+<details>
+  <summary><strong>📌 Lesson 76: Package repositories</strong></summary>
+
+  ### 1️⃣ Comands:
+```sh
+mkdir -p src/repositories && touch src/repositories/users.go && code src/repositories/users.go
+```
+</details>
+
