@@ -89,3 +89,13 @@ touch .env.example && code .env.example
 ```
 </details>
 
+<details>
+  <summary><strong>📌 Lesson 75: Connecting to database</strong></summary>
+
+  ### 1️⃣ Comands:
+```sh
+mkdir -p src/database && touch src/database/database.go && code src/database/database.go
+go get github.com/go-sql-driver/mysql
+```
+</details>
+
