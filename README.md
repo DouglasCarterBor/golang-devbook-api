@@ -121,3 +121,11 @@ go run main.go
 ```
 </details>
 
+<details>
+  <summary><strong>📌 Lesson 79: Response package</strong></summary>
+
+```sh
+mkdir -p src/answers && touch src/answers/answers.go && code src/answers/answers.go
+```
+</details>
+

@@ -14,7 +14,7 @@ import (
 func CreateUser(w http.ResponseWriter, r *http.Request) {
 	bodyRequest, err := io.ReadAll(r.Body)
 	if err != nil {
-			log.Fatal(err)
+		log.Fatal(err)
 	}
 
 	var user models.User 
@@ -26,6 +26,7 @@ func CreateUser(w http.ResponseWriter, r *http.Request) {
 	if err != nil {
 		log.Fatal(err)
 	}
+	defer db.Close()
 
 	repository := repositories.NewRepositoryUsers(db)
 	usuarioID, err := repository.Create(user)
