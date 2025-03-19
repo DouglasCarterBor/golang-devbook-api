@@ -126,6 +126,7 @@ go run main.go
 
 ```sh
 mkdir -p src/answers && touch src/answers/answers.go && code src/answers/answers.go
+go run main.go
 ```
 </details>
 
